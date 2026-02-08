@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: kidney-tumor-classification
+Version: 0.1.0
+Summary: Add your description here
+Home-page: https://github.com/Zaeem-Hassan/Kidney-tumor-classification
+Author: Zaeem-Hassan
+Author-email: zaeemhassan2004@gmail.com
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+
+# Kidney-tumor-classification
