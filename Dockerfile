@@ -10,7 +10,11 @@ RUN apt update -y && apt install -y \
     && rm -rf /var/lib/apt/lists/*
 WORKDIR /app
 
+COPY requirements.txt /app/
+COPY setup.py /app/
+RUN pip install --upgrade pip && \
+    pip install -r requirements.txt
+
 COPY . /app
-RUN pip install -r requirements.txt
 
 CMD ["python3", "app.py"]
