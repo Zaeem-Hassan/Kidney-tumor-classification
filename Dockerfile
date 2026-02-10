@@ -12,6 +12,7 @@ WORKDIR /app
 
 COPY requirements.txt /app/
 COPY setup.py /app/
+COPY README.md /app/
 RUN pip install --upgrade pip && \
     pip install -r requirements.txt
 
