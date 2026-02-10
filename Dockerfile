@@ -13,6 +13,7 @@ WORKDIR /app
 COPY requirements.txt /app/
 COPY setup.py /app/
 COPY README.md /app/
+COPY src /app/src
 RUN pip install --upgrade pip && \
     pip install -r requirements.txt
 
